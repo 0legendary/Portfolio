@@ -97,7 +97,7 @@ header.nav-fixed{
     background-color: green !important
   }
   .banner {
-    background-image: url(png/background5.jpg);
+    background-image: url(png/background-img/background5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -230,4 +230,64 @@ ul {
 }
 .follow-social{
     padding-left: 0px;
+}
+
+
+/* Service section*/
+
+.about-section {
+    background-color:#e8e8e8;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.row{
+   padding-left: 60px;
+}
+
+.about-single {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+  }
+/* colomn sising */
+.col-lg-4 {
+    flex: 0 0 auto !important;
+    width: 33.333% !important;
+}
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.resize{
+    height: 284px;
+}
+.bg-image-1{
+    background-image: url(png/background-img/black.jpg);
+}
+.bg-image-2{
+    background-image: url(png/background-img/black2.jpg);
+}
+.bg-image-3{
+    background-image: url(png/background-img/black1.jpg);
+}
+
+.about-content h5 a {
+    font-weight: 600;
+    color: white;
+    font-size: 22px;
+}
+a, a:hover, button, button:hover {
+    text-decoration: none !important; 
+    transition: .5s all;
+    -moz-transition: .5s all;
+}
+a.btn.btn-border {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+    text-transform: capitalize;
 }
