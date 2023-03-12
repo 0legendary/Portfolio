@@ -157,3 +157,77 @@ header.nav-fixed{
     background-color: white !important;
     color: black !important;
 }
+
+
+
+
+.title-small {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 28px;
+    color: grey;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.title-main, .title-main.two {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:#404044;
+}
+
+.my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+p {
+    margin: 0;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    padding: 0;
+      padding-right: 0px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #717171;
+}
+
+.my-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+ul{
+    margin: 0;
+      margin-top: 0px;
+    padding: 0;
+}
+
+ul.follow-social li a {
+    font-size: 20px;
+}
+
+ul.follow-social li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.mt-lg-5 {
+    margin-top: 3rem !important;
+}
+ul {
+    margin: 0;
+      margin-top: 0px;
+    padding: 0;
+}
+.follow-social{
+    padding-left: 0px;
+}
