@@ -291,3 +291,162 @@ a.btn.btn-border {
     color: var(--primary-color);
     text-transform: capitalize;
 }
+
+/* Skills*/
+col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.skills .progress-info {
+    margin-bottom: 30px !important;
+    text-align: left;
+    position: relative;
+}
+.skills h6.progress-tittle {
+    font-size: 17px;
+    color: var(--heading-color);
+    margin-bottom: 10px;
+}
+.skills .progress {
+    display: flex;
+    height: 4px;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e1e1e1;
+    border-radius: 0.25rem;
+}
+.skills .progress-bar-striped {
+    background-image: none;
+    background-size: cover;
+}
+.skills .progress-bar {
+    background-color: var(--primary-color);
+    transition: width 0.6s ease;
+}
+
+.font{
+    font-family: Courier New;
+}
+
+/*Desinging*/
+.skills .info1 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 80%;/**/
+}
+.skills .progress-bar.gradient-1 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+
+/*CSS*/
+.skills .info2 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 95%;/**/
+}
+.skills .progress-bar.gradient-2 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+/*HTML*/
+.skills .info3 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 95%;/**/
+}
+.skills .progress-bar.gradient-3 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+
+/*PYthon*/
+.skills .info4 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 70%;/**/
+}
+.skills .progress-bar.gradient-4 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+/*C*/
+.skills .info5 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 40%;/**/
+}
+.skills .progress-bar.gradient-5 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+/*Java*/
+.skills .info6 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 72%;/**/
+}
+.skills .progress-bar.gradient-6 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+/*Bootstrap*/
+.skills .info7 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 30%;/**/
+}
+.skills .progress-bar.gradient-7 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+/*UI/UX*/
+.skills .info8 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 97%;/**/
+}
+.skills .progress-bar.gradient-8 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+/*Git*/
+.skills .info9 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 82%;/**/
+}
+.skills .progress-bar.gradient-9 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
+
+/*C++*/
+.skills .info10 h6.progress-tittle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 42%;/**/
+}
+.skills .progress-bar.gradient-10 {
+    color: #61fded;
+    background-color: #0d8abc;
+    background-image: linear-gradient(-224deg, #0d8abc, #61fded);
+}
