@@ -15,6 +15,15 @@ header.nav-fixed{
     right: 0;
     left: 0;
 }
+header {
+    position: absolute;
+    padding: 0px;
+    transition: all 0.4s ease 0s;
+    height: 130px;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+}
 .header-info{
     width: 100%;
     padding-right: 15px;
@@ -45,8 +54,8 @@ header.nav-fixed{
     color: #fff;
     font-weight: 600;
     position: relative;
-    padding-left: 362px;
-    padding-top: 33px;
+    padding-left: 340px;
+    /*padding-top: 33px;*/
   }
 .collapse{
     padding-right: 450px;
