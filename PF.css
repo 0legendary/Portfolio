@@ -159,7 +159,7 @@ header.nav-fixed{
 }
 
 
-
+/*About section*/
 
 .title-small {
     font-size: 16px;
@@ -178,11 +178,13 @@ header.nav-fixed{
     font-weight: 600;
     text-transform: capitalize;
     color:#404044;
+    font-family: Lucida Console;
 }
 
 .my-4 {
     margin-top: 1.5rem !important;
     margin-bottom: 1.5rem !important;
+    font-family: Noto;
 }
 
 p {
@@ -266,13 +268,13 @@ ul {
     height: 284px;
 }
 .bg-image-1{
-    background-image: url(png/background-img/black.jpg);
+    background-image: url(png/background-img/black.jpg) !important;
 }
 .bg-image-2{
-    background-image: url(png/background-img/black2.jpg);
+    background-image: url(png/background-img/black2.jpg) !important;
 }
 .bg-image-3{
-    background-image: url(png/background-img/black1.jpg);
+    background-image: url(png/background-img/black1.jpg) !important;
 }
 
 .about-content h5 a {
@@ -485,7 +487,7 @@ p.counter {
     margin: 0px 0 20px 0px;
     display: block;
 }
-p {
+.writes {
     margin: 0;
     padding: 0;
     font-size: 18px;
@@ -505,3 +507,124 @@ p {
 .space-bg{
     background-image: url(png/background-img/mountain.jpg);
 }
+
+
+
+/*Works*/
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.row{
+   padding-left: 60px;
+}
+.title{
+    font-family: Courier New;
+}
+
+.about-single {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+  }
+/* colomn sising */
+.col-lg-4 {
+    flex: 0 0 auto !important;
+    width: 33.333% !important;
+    
+}
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.box-1{
+    height: 284px;
+}
+.box-2{
+    height: 284px;
+}
+.box-3{
+    height: 284px;
+}
+.project-img-1{
+    background-image: url(png/Projects/html-calculator.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.project-img-2{
+    background-image: url(png/Projects/clock.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.project-img-3{
+    background-image: url(png/Projects/python-calculator.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.project-img-4{
+    background-image: url(png/Projects/fb-page.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 97%;
+
+}
+.project-img-5{
+    background-image: url(png/Projects/html-website.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 97%;
+
+}
+.align{
+    padding-top: 2%;
+    padding-left: 5%;
+    width: 152%;
+}
+
+.move{
+    padding-left: 10%;
+}
+.project-section-bg{
+    background-color:#e8e8e8;
+}
+
+.about-content h5 a {
+    font-weight: 600;
+    color: white;
+    font-size: 22px;
+}
+a, a:hover, button, button:hover {
+    text-decoration: none !important; 
+    transition: .5s all;
+    -moz-transition: .5s all;
+}
+a.btn.btn-border {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+
+
+.style-3{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: math;
+}
+.adj{
+    padding-top: 10px;
+}
+
+
