@@ -626,5 +626,89 @@ a.btn.btn-border {
 .adj{
     padding-top: 10px;
 }
-
+/* Footer */
+.name-logo{
+    text-decoration: none;
+    white-space: nowranavbar-collapsep;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    padding-top: 33px;
+}
+.look{
+    padding: 0px;
+    border-bottom: none;
+    z-index: 9 !important;
+    background: rgba(6, 31, 36, 0.9);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+    height: 240px;
+}
+.contact-text-sub {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #aaa;
+}
+.position-icon1{
+    position: relative;
+    left: -3px;
+    top: -1px;
+}
+.position-icon2{
+    position: relative;
+    left: -1px;
+    top: -3px;
+}
+.position-icon3{
+    position: relative;
+    left: -1px;
+    top: -4px;
+}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.social {
+    position: absolute;
+    top: -23px;
+    left: 85%;
+    transform: translateX(-50%);
+}
+.footer-grids {
+    position: relative;
+}
+.container1{
+    background-color: #001c15fc;
+}
+.writings{
+    color: #c7c7c7;
+}
+    
+    /*Scroll top button*/
+#movetop {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 2px;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#movetop img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+#movetop.show {
+    opacity: 1;
+}
+    
+    
 
