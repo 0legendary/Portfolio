@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="PF.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
 
@@ -33,10 +34,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="collapse navbar-collapse">
                     <ul class="navbar-nav ms-lg-auto align-items-center">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="index.html">Home </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
@@ -86,30 +87,23 @@
             </nav>
         </div>
     </header>
-
-    <!--Banner section-->
-    <section id="home" class="banner pt-5">
-        <div class="container pt-lg-5 pt-md-4">
-            <div class="row pt-lg-5 pt-4">
-                <div class="col-lg-7 banner-info-grid pt-lg-0 pt-5">
-                    <h1 class="name">Hi, I'm Alen</h1>
-                    <h3 class="mb-4"> <span class="typed-text"></span><span class="cursor">&nbsp</span></h3>
-                    <p>I love Graphic design and have been working on my portfolio since 2016. I Can
-                        give your business a new Creative start right away!</p>
-                    
-                    <a class="btn btn-primary btn-style mt-5 me-2" href="contact.html"> Hire Me </a>
-                    <a class="btn btn-style transparent-btn mt-5" href="#portfolio"> My Portfolio </a>
-                    
+    <!-- about banner -->
+    <section class="about-breadcrumb text-center about-banner">
+        <div class="breadcrumb-bg breadcrumb-bg-about py-5">
+            <div class="container py-lg-5 mt-5">
+                <div class="banner-info-grid mt-5">
+                    <h2 class="title-breadcrumb">About Me</h2>
                 </div>
-                
-                <div class="col-lg-5 text-lg-end my-image mt-lg-0 mt-4">
-                    <img src="png/background-img/person3.png" class="img-fluid" />
-                </div>  
-                
+                <ul class="breadcrumbs-custom-path">
+                    <li><a class="hover-style" href="index.html">Home</a></li>
+                    <li class="active"><img src="png/icons/arrow-icon.png" alt=""> About</li>
+                </ul>
             </div>
         </div>
     </section>
-    <!--//Banner section-->
+    <!-- //about banner -->
+
+
 
     <!-- About Section-->
     <section class="w3l-about py-5" id="about">
@@ -160,59 +154,6 @@
     <!-- //About Section-->
 
 
-
-    <!-- Services Section -->
-    <section class="about-section py-5">
-        <div class="container py-lg-5 py-md-4 py-2">
-            <div class="title-heading-w3 mx-auto text-center mb-sm-5 mb-4">
-                <h3 class="w3l-title-main">What I do for you</h3>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="about-single bg-image-1">
-                        <div class="about-icon mb-4">
-                            <img src="png/icons/designing-icon.png" alt="">
-                        </div>
-                        <div class="about-content">
-                            <h5 class="mb-3"><a href="#url">Web Designing</a></h5>
-                            <p>Provides a seamless user experience and user-friendly. Highly importance for client's brand and goals</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
-                    <div class="about-single bg-image-2">
-                        <div class="about-icon mb-4 ">
-                            <img src="png/icons/python-icon.png" alt="">
-                        </div>
-                        <div class="about-content">
-                            <h5 class="mb-3"><a href="#url">Python Development</a></h5>
-                            <p>Provide best work for client and Graphical User Interface. Giving importance for clients brand and goal</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-lg-0 mt-3">
-                    <div class="about-single bg-image-3">
-                        <div class="about-icon mb-4 ">
-                            <img src="png/icons/git-icon.png" alt="">
-                        </div>
-                        <div class="about-content">
-                            <h5 class="mb-3"><a href="#url">Git usage</a></h5>
-                            <p>Team work is possible and Can track all things and easy to make changes as per your needs.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w3l-btn text-center">
-                <a href="services.html" class="btn btn-border mt-lg-5 mt-4 me-2">
-                    More services <img src="png/icons/service-icon.png" alt=""></a>
-            </div>
-        </div>
-    </section>
-    <!-- //Services Section -->
-
-
-    
     <!-- skills section -->
     <section class="skills py-5" id="skills">
         <div class="container py-md-5 py-4">
@@ -310,64 +251,30 @@
         </div>
     </section>
     <!-- //skills section -->
-    <!-- Stats Section-->
-    <section class="stats-section py-5 space-bg" id="stats">
-        <div class="container py-lg-5 py-md-4 py-2">
-            <div class="stats-inner-inf py-lg-4">
-                <div class="row stats-con text-center">
-                    <div class="col-lg-4 col-6 stats_info counter_grid">
-                        <p class="counter writes"> 4 </p>
-                        <h3>Finished Projects</h3>
+
+
+    <!--section to hire-->
+    <section class="join py-5" id="join">
+        <div class="container py-md-5 py-3">
+            <div class="row">
+                <div class="col-lg-7 video-info pe-lg-5">
+                    <div class="title-content">
+                        <h6 class="title-small two">Get in touch</h6>
+                        <h3 class="title-main two mb-3">From Concept to Reality! Let's Discuss It to Make Your Dream Come True...</h3>
+                        <p class="pe-lg-5">With a passion for creativity and a dedication to quality, I am committed to delivering exceptional results that exceed your expectations and help your project stand out in today's competitive landscape.</p>
+    
                     </div>
-                    <div class="col-lg-4 col-6 stats_info counter_grid">
-                        <p class="counter"> 98 </p>
-                        <h3>Working Hours</h3>
-                    </div>
-                    <div class="col-lg-4 col-6 stats_info counter_grid mt-lg-0 mt-sm-5 mt-5">
-                        <p class="counter"> 50 </p>
-                        <h3>Online Support</h3>
+                </div>
+                <div class="col-lg-5 history-info align-self">
+                    <div class="banner-content-btns d-sm-flex justify-content-lg-end">
+                        <a href="contact.html" class="btn btn-style btn-primary mt-lg-5 mt-4 me-sm-3">Hire me </a>
+                        <a href="contact.html" class="btn btn-style transparent-btn1 mt-lg-5 mt-4 me-2">Contact Me </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- //Stats Section-->
-
-    <!--Projects-->
-    <section class="project-section project-section-bg py-5">
-        <div class="container py-lg-5 py-md-4 py-2">
-            <div class="title-heading mx-auto text-center mb-sm-5 mb-4">
-                <h3 class="title">Works</h3>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="box-1 about-single project-img-1"></div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-md-0 mt-3">
-                    <div class="box-2 about-single project-img-2"></div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-lg-0 mt-3">
-                    <div class="box-3 about-single project-img-3"></div>
-                </div>
-            </div>
-            <div class="row align">
-                <div class="col-lg-4 col-md-6">
-                    <div class="box-1 move about-single project-img-5"></div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="box-1 move about-single project-img-4"></div>
-                </div>
-            </div>
-            
-            <!--can add later
-            <div class="w3l-btn text-center">
-                <a href="see more.html" class="btn btn-border mt-lg-5 mt-4 me-2">
-                    See More <img src="png/icons/service-icon.png" alt=""></a>
-            </div>
-            -->
-        </div>
-    </section>
+    <!--//section to hire-->
 
     <!-- footer -->
     <footer class="text-center">
@@ -416,6 +323,7 @@
     </div>
     </footer>
     <!-- //footer -->
+
 
     <!--Scroll button-->
     <button onclick="topFunction()" id="movetop" title="Go to top">
