@@ -538,6 +538,8 @@ p.counter {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
   }
 /* colomn sising */
+
+
 .col-lg-4 {
     flex: 0 0 auto !important;
     width: 33.333% !important;
@@ -547,7 +549,7 @@ p.counter {
     flex: 0 0 auto;
     width: 50%;
 }
-.box-1{
+/**/.box-1{
     height: 284px;
 }
 .box-2{
@@ -556,45 +558,193 @@ p.counter {
 .box-3{
     height: 284px;
 }
-.project-img-1{
+.box-4{
+    height: 284px;
+}
+.box-5{
+    height: 284px;
+}
+/**/
+.project-img-1 {
     background-image: url(png/Projects/html-calculator.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    position: relative;
 }
 
-.project-img-2{
+.project-img-1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 4%;
+    transition: background-color 0.5s ease;
+}
+
+.project-img-1:hover::before {
+    background-color: rgb(0 0 0 / 69%);
+}
+
+.project-img-1:hover .project-info {
+    opacity: 1;
+}
+
+.project-info {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    right: -35%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    
+}
+.style-heading {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-bottom: 6%;
+}
+.style-sentence {
+    font-size: 18px;
+    font-family: math;
+}
+
+/**/
+
+
+.project-img-2 {
     background-image: url(png/Projects/clock.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    position: relative;
 }
-.project-img-3{
+
+.project-img-2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 4%;
+    transition: background-color 0.5s ease;
+}
+
+.project-img-2:hover::before {
+    background-color: rgb(0 0 0 / 69%);
+}
+
+.project-img-2:hover .project-info {
+    opacity: 1;
+}
+
+
+
+.project-img-3 {
     background-image: url(png/Projects/python-calculator.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.project-img-3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-
+    height: 100%;
+    background-color: transparent;
+    border-radius: 4%;
+    transition: background-color 0.5s ease;
 }
-.project-img-4{
-    background-image: url(png/Projects/fb-page.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 97%;
 
+.project-img-3:hover::before {
+    background-color: rgb(0 0 0 / 69%);
 }
-.project-img-5{
+
+.project-img-3:hover .project-info {
+    opacity: 1;
+}
+
+
+
+
+.project-img-4 {
     background-image: url(png/Projects/html-website.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 97%;
-
+    position: relative;
 }
+
+.project-img-4::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 4%;
+    transition: background-color 0.5s ease;
+}
+
+.project-img-4:hover::before {
+    background-color: rgb(0 0 0 / 69%);
+}
+
+.project-img-4:hover .project-info {
+    opacity: 1;
+}
+
+
+
+
+.project-img-5 {
+    background-image: url(png/Projects/fb-page.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.project-img-5::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 4%;
+    transition: background-color 0.5s ease;
+}
+
+.project-img-5:hover::before {
+    background-color: rgb(0 0 0 / 69%);
+}
+
+.project-img-5:hover .project-info {
+    opacity: 1;
+}
+
+/*//Projects animation */
+
+
 .align{
     padding-top: 2%;
     padding-left: 5%;
@@ -776,4 +926,16 @@ a.btn.btn-border {
     color: #23762e !important;
     border: 1px solid #12910a !important;
     background: rgba(255, 255, 255, 0.15);
+}
+
+
+
+
+
+
+/*Service section*/
+
+.py-lg-5.container {
+    padding-top: 2rem!important;
+    padding-bottom: 0rem!important;
 }
