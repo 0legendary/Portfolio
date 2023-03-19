@@ -106,7 +106,7 @@ header {
     background-color: green !important
   }
   .banner {
-    background-image: url(png/background-img/background5.jpg);
+    background-image: url(png/background-img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -303,6 +303,9 @@ a.btn.btn-border {
 }
 
 /* Skills*/
+#skills1{
+    background-color: #e8e8e8;
+}
 col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
@@ -602,8 +605,17 @@ p.counter {
     right: -35%;
     transform: translate(-50%, -50%);
     
-    color: white;
+    color: white;   
+}
+.project-info1 {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    right: -35%;
+    transform: translate(-50%, -50%);
     
+    color: white;   
 }
 .style-heading {
     font-family: 'Courier New', Courier, monospace;
@@ -898,7 +910,7 @@ a.btn.btn-border {
     color: #eee;
 }
 .about-banner {
-    background-image: url(png/background-img/background5.jpg);
+    background-image: url(png/background-img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -918,9 +930,54 @@ a.btn.btn-border {
     background-color: rgb(6 31 36 / 45%);
     z-index: -1;
 }
+.align-colomn{
+    padding: 1%;
+}
+.extra-activities{
+    background-color: #e8e8e8
+}
+.text-place{
+    padding-left: 5.5%;
+}
 .join{
     background-image: url(png/background-img/mountain.jpg);
 }
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+/*activity 1*/
+.act-logo1 {
+    height: 71px;
+    margin-right: 10px; 
+}
+
+.image-text1 {
+    position: absolute;
+    top: 50%;
+    left: 105px;
+    transform: translateY(-50%);
+    padding: 9px;
+    font-size: 16px;
+    color: #000000;
+    white-space: nowrap;
+}
+/*activity 2*/
+.act-logo2 {
+    height: 75px;
+    margin-right: 10px; 
+}
+.image-text2 {
+    position: absolute;
+    top: 50%;
+    left: 105px;
+    transform: translateY(-50%);
+    padding: 9px;
+    font-size: 16px;
+    color: #000000;
+    white-space: nowrap;
+}
+
 
 .transparent-btn1 {
     color: #23762e !important;
@@ -938,4 +995,90 @@ a.btn.btn-border {
 .py-lg-5.container {
     padding-top: 2rem!important;
     padding-bottom: 0rem!important;
+}
+.icon-size1{
+    height: 40px;
+}
+.icon-size2{
+    height: 40px;
+}
+.icon-size3{
+    height: 40px;
+}
+/*Discussion*/
+.title-heading{
+    max-width: 700px;
+}
+.title-main, .title-main.two {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--heading-color);
+}
+.service-section .card {
+    border: none;
+    background: var(--bg-grey);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+.card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+.p-0 {
+    padding: 0 !important;
+}
+.border-0 {
+    border: 0 !important;
+}
+.position-relative {
+    position: relative !important;
+}
+.card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+.service-details {
+    padding: 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.service-heading {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+a, a:hover, button, button:hover {
+    text-decoration: none;
+    transition: .5s all;
+    -moz-transition: .5s all;
+}
+.img-responsive1{
+    height: 261px;
+}
+.img-responsive2{
+    height: 261px;
+    width: 100%;
+}
+.img-responsive3{
+    height: 261px;
+    width: 100%;
 }
