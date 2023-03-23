@@ -8,6 +8,7 @@ header.nav-fixed{
     background: rgba(6, 31, 36, 0.9);
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
     height: 110px;
+    width: 100% !important;
 }
 .fixed-top{
     position: fixed;
@@ -340,6 +341,7 @@ col-lg-6 {
 
 .font{
     font-family: Courier New;
+    color:  #fefdfe;
 }
 
 /*Desinging*/
@@ -494,7 +496,7 @@ col-lg-6 {
 p.counter {
     font-size: 46px;
     font-weight: 700;
-    color: var(--heading-color);
+    color: #fefdfe;
     margin: 0px 0 20px 0px;
     display: block;
 }
@@ -516,7 +518,12 @@ p.counter {
 }
 
 .space-bg{
-    background-image: url(png/background-img/mountain.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-position: 50% 0%;
+    color: #9d9d9d;
+    background-color: #0f161e;
 }
 
 
@@ -757,17 +764,21 @@ p.counter {
 /*//Projects animation */
 
 
-.align{
+.align {
     padding-top: 2%;
-    padding-left: 5%;
-    width: 152%;
+    padding-left: 4.6%;
+    width: 150.4%;
 }
-
 .move{
     padding-left: 10%;
 }
 .project-section-bg{
-    background-color:#e8e8e8;
+    background-image: url(png/background-img/lightning-bg2.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-position: 50% 87%;
+    color:  #fefdfe;
 }
 
 .about-content h5 a {
@@ -1081,4 +1092,60 @@ a, a:hover, button, button:hover {
 .img-responsive3{
     height: 261px;
     width: 100%;
+}
+
+
+/*Contack section*/
+.contact-logo1 {
+    height: 50px;
+    margin-right: 10px;
+}
+.contact-logo2 {
+    height: 50px;
+    margin-right: 10px;
+}
+.contact-logo3 {
+    height: 50px;
+    margin-right: 10px;
+}
+.contact-logo4 {
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+.align-colomn1 {
+    padding: 1%;
+}
+.align-colomn2 {
+    padding: 1%;
+}
+.align-colomn3 {
+    padding: 1%;
+}
+.align-colomn4 {
+    padding: 1%;
+}
+.contact{
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    padding: 9px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.letter{
+    color: #000000;
+}
+.letter:hover{
+    color: #fefdfe;
+}
+.extra-activities1{
+    background-image: url(png/background-img/lightning-bg.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-position: 50% 68%;
+    
 }
