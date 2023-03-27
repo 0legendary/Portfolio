@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+/*Header section*/
 header.nav-fixed{
     padding: 0px;
     border-bottom: none;
@@ -8,13 +9,14 @@ header.nav-fixed{
     background: rgba(6, 31, 36, 0.9);
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
     height: 110px;
-    width: 100% !important;
+    width: 109% !important;
 }
 .fixed-top{
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
+    width: 109%;
 }
 header {
     position: absolute;
@@ -105,8 +107,12 @@ header {
 .btn-primary {
     color: #fff;
     background-color: green !important
-  }
-  .banner {
+}
+
+
+
+/*Banner Section*/
+.banner {
     background-image: url(png/background-img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -145,9 +151,13 @@ header {
     color: #fff;
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 28px;
 }
+.s1{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+ 
 .transparent-btn {
     color: #fff !important;
     border: 1px solid #dadada !important;
@@ -166,6 +176,16 @@ header {
     background-color: white !important;
     color: black !important;
 }
+.typed-text, .typed-placeholder {
+    display: block;
+    height: 1em; /* adjust the height to match your design */
+    margin-bottom:0em; /* adjust the margin to match your design */
+  }
+  
+  .typed-placeholder {
+    height: 0;
+  }
+ 
 
 
 /*About section*/
@@ -206,6 +226,7 @@ p {
     line-height: 28px;
     color: #717171;
 }
+
 
 .my-info{
     display: grid;
@@ -341,7 +362,7 @@ col-lg-6 {
 
 .font{
     font-family: Courier New;
-    color:  #fefdfe;
+    color:  #1c1c1c;;
 }
 
 /*Desinging*/
